@@ -41,16 +41,12 @@ After reset, the system starts with a safe initialization step where all lights 
 
 ## Files in This Repository
 
-```text
-Traffic_Light_Controller_Report.docx
-README.md
-logisim-circuit-1.jpeg
-logisim-circuit-2.jpeg
-
-verilog/
-  traffic_controller_1hz.v
-  tb_traffic_controller_1hz_fast.v
-```
+- `Traffic_Light_Controller_Report.docx`
+- `README.md`
+- `logisim-circuit-1.jpeg`
+- `logisim-circuit-2.jpeg`
+- `verilog/traffic_controller_1hz.v`
+- `verilog/tb_traffic_controller_1hz_fast.v`
 
 ## Verilog Files
 
