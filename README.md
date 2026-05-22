@@ -1,4 +1,4 @@
-# traffic-light-controller-system-
+# Traffic Light Controller System
 
 This project is a traffic light controller system designed for the COMP2001 Digital Design course. The system was first designed in Logisim and then implemented in Verilog.
 
@@ -44,6 +44,8 @@ After reset, the system starts with a safe initialization step where all lights 
 ```text
 Traffic_Light_Controller_Report.docx
 README.md
+logisim-circuit-1.jpeg
+logisim-circuit-2.jpeg
 
 verilog/
   traffic_controller_1hz.v
