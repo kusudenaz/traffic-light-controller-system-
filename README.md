@@ -47,7 +47,8 @@ README.md
 
 verilog/
   traffic_controller_1hz.v
-  tb_traffic_controller_1hz_fast.vVerilog Files
+  tb_traffic_controller_1hz_fast.v
+Verilog Files
 traffic_controller_1hz.v contains the main traffic light controller module.
 tb_traffic_controller_1hz_fast.v contains the testbench used for simulation.
 Simulation
