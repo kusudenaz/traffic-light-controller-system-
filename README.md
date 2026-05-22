@@ -50,31 +50,38 @@ logisim-circuit-2.jpeg
 verilog/
   traffic_controller_1hz.v
   tb_traffic_controller_1hz_fast.v
-Verilog Files
-traffic_controller_1hz.v contains the main traffic light controller module.
-tb_traffic_controller_1hz_fast.v contains the testbench used for simulation.
-Simulation
+```
+
+## Verilog Files
+
+- `traffic_controller_1hz.v` contains the main traffic light controller module.
+- `tb_traffic_controller_1hz_fast.v` contains the testbench used for simulation.
+
+## Simulation
 
 The testbench uses faster simulation timing. In the simulation, 1 second is represented as 10 ns to make the testing process faster.
 
 The testbench checks:
 
-Reset behavior
-Direction changes
-Phase transitions
-Traffic light outputs
-Safe all-red initialization
-Logisim Design
+- Reset behavior
+- Direction changes
+- Phase transitions
+- Traffic light outputs
+- Safe all-red initialization
+
+## Logisim Design
 
 The Logisim circuit was used as the reference design for the controller logic. The design includes the counter logic, decoders, state logic, and output control circuits.
 
-Authors
-Esma Begüm Demir
-Eda Eylül Özdemir
-Sudenaz Kuş
-Course Information
+## Authors
 
-Course: COMP2001 Digital Design
-Department: Computer Engineering
-University: Konya Food and Agriculture University
+- Esma Begüm Demir
+- Eda Eylül Özdemir
+- Sudenaz Kuş
+
+## Course Information
+
+Course: COMP2001 Digital Design  
+Department: Computer Engineering  
+University: Konya Food and Agriculture University  
 Instructor: Prof. Dr. Kasım Öztoprak
